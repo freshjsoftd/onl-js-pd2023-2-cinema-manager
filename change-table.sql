@@ -1,0 +1,4 @@
+-- ALTER TABLE locations ADD COLUMN city VARCHAR(100);
+ALTER TABLE locations
+ALTER COLUMN city
+SET NOT NULL;
